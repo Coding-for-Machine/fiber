@@ -1,21 +1,17 @@
-# Go bazaviy imijidan foydalanamiz
-FROM golang:1.23 AS builder 
+# Golang container
+FROM golang:1.23
 
-# Ishlash katalogini o‘rnatamiz
+
 WORKDIR /app
 
+COPY go.mod ./
+COPY go.sum ./
+RUN go mod download
 
-# Loyihani ko‘chiramiz
-COPY . .
+COPY . ./
 
-# Modullarni yuklash
-RUN go mod tidy
+RUN go build -o main ./app/main.go
 
-# Loyihani build qilish
-RUN go build -o app ./app/main.go
-
-# Port ochamiz
 EXPOSE 3000
 
-# Ilovani ishga tushiramiz
-CMD [ "./app" ]
+CMD ["./main"]
