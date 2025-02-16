@@ -1,28 +1,17 @@
-FROM golang:1.23 AS builder
+# Golang container
+FROM golang:1.23
+
 
 WORKDIR /app
 
-# Go mod va loyiha fayllarini yuklash
-COPY go.mod go.sum ./
-RUN go mod tidy
+COPY go.mod ./
+COPY go.sum ./
+RUN go mod download
 
-COPY . .
+COPY . ./
 
-# Go build qilish
-RUN go build -o main 
-# Yangi container yaratish
-FROM debian:bullseye-slim
-
-WORKDIR /app
-
-# Build qilingan binarni ko‘chirish
-COPY --from=builder /app/main .
-
-# Faylga ruxsat berish
-RUN chmod +x main 
- # ✅ "main" faylni bajariladigan qilib qo‘yamiz
+RUN go build -o main .
 
 EXPOSE 3000
 
-CMD ["./main"] 
- # ✅ Docker "main" faylini ishga tushiradi
+CMD ["./main"]
