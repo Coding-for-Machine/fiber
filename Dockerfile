@@ -1,5 +1,5 @@
 # Go bazaviy imijidan foydalanamiz
-FROM golang:1.21-alpine
+FROM golang:1.23 AS builder 
 
 # Ishlash katalogini o‘rnatamiz
 WORKDIR /app
