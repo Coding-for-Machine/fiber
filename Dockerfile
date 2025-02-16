@@ -14,4 +14,4 @@ RUN go build -o main ./app/main.go
 
 EXPOSE 3000
 
-CMD ["./main"]
+CMD ["./app/main"]
