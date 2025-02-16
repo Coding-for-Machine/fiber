@@ -12,7 +12,7 @@ COPY . .
 RUN go mod tidy
 
 # Loyihani build qilish
-RUN go build -o app /app/main.go
+RUN go build -o app ./app/main.go
 
 # Port ochamiz
 EXPOSE 3000
