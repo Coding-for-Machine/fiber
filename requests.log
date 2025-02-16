@@ -1,0 +1,19 @@
+[2025-02-17 01:19:32] GET / from 127.0.0.1
+Body: 
+
+[2025-02-17 01:19:32] GET /favicon.ico from 127.0.0.1
+Body: 
+
+[2025-02-17 01:19:34] GET / from 127.0.0.1
+Body: 
+
+[2025-02-17 01:20:53] GET / from 127.0.0.1
+Headers: map[Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7] Accept-Encoding:[gzip, deflate, br, zstd] Accept-Language:[en-US,en;q=0.9,uz;q=0.8] Cache-Control:[max-age=0] Connection:[keep-alive] Cookie:[csrftoken=UuvsfD8Wwhq55JkImD8DfgzwrmCbf5LL; sessionid=6r936dq8bmimbvljrhf9n002wuqgi5gh] Host:[127.0.0.1:3000] Sec-Ch-Ua:["Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"] Sec-Ch-Ua-Mobile:[?0] Sec-Ch-Ua-Platform:["Linux"] Sec-Fetch-Dest:[document] Sec-Fetch-Mode:[navigate] Sec-Fetch-Site:[none] Sec-Fetch-User:[?1] Upgrade-Insecure-Requests:[1] User-Agent:[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36]]
+Query Params: map[]
+Body: 
+
+[2025-02-17 01:20:53] GET / from 127.0.0.1
+Headers: map[Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7] Accept-Encoding:[gzip, deflate, br, zstd] Accept-Language:[en-US,en;q=0.9,uz;q=0.8] Cache-Control:[max-age=0] Connection:[keep-alive] Cookie:[csrftoken=UuvsfD8Wwhq55JkImD8DfgzwrmCbf5LL; sessionid=6r936dq8bmimbvljrhf9n002wuqgi5gh] Host:[127.0.0.1:3000] Sec-Ch-Ua:["Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"] Sec-Ch-Ua-Mobile:[?0] Sec-Ch-Ua-Platform:["Linux"] Sec-Fetch-Dest:[document] Sec-Fetch-Mode:[navigate] Sec-Fetch-Site:[none] Sec-Fetch-User:[?1] Upgrade-Insecure-Requests:[1] User-Agent:[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36]]
+Query Params: map[]
+Body: 
+
