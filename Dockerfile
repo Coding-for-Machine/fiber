@@ -9,7 +9,7 @@ RUN go mod tidy
 COPY . .
 
 # Go build qilish
-RUN go build -o ./app/main 
+RUN go build -o main ./app/main.go
 # Yangi container yaratish
 FROM debian:bullseye-slim
 
